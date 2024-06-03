@@ -162,8 +162,10 @@ function getBlogTable() {
             <td>${item.author}</td>
             <td>${item.content}</td>
         </tr>
-        `;
+        `;   
         htmlRows += htmlRow;
     });
     $('#tbody').html(htmlRows);
 }
+
+//completely
